@@ -2,7 +2,7 @@ $(function () {
     getUserInfo()
 
     var layer = layui.layer
-    //点击按钮实现退出功能
+    //点击按钮实现退出功能  layui模板快 弹出层
     $("#btnLogoOut").on("click", function () {
         layer.confirm('确定退出登录?', { icon: 3, title: '提示' }, function (index) {
             layer.close(index);
